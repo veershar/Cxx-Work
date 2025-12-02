@@ -5,10 +5,11 @@ Contains sample programs that uses C++ general purpose programming
 Explore different language features through simple programs
 Structure Dir:
 + Program_<Name>_<What>
-  + src
-  + headers
+  + program
+    + include
+    + impl
   + test
-  + Makefiles
+  + CMakeLists
 
 ## Content
 1. Procedural 
