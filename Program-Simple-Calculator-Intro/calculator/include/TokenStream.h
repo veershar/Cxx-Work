@@ -24,9 +24,10 @@ public:
 
 private:
 	void close();
+	void getToken(const char& ch);
 	bool owner;
 	std::istream* ptrIStream;
-	Token type {Type::end, "Default", -1};
+	Token token;
 };
 
 namespace funcs

@@ -24,6 +24,6 @@ int main(int args, char** argv)
 	
 	TokenStream stream(std::cin);
 	
-	std::cout << stream.get().strValue << std::endl;
+	//std::cout << stream.get().strValue << std::endl;
 	return 0;
 }

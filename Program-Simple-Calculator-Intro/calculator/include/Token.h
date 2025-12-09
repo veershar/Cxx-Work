@@ -8,7 +8,7 @@
 #define _TOKEN_H
 
 #include <string>
-
+#include <iostream>
 /**
  * @class 
  * @brief
@@ -26,7 +26,8 @@ enum class Type:char
 	print=';',
 	assign='=',
 	lp='(',
-	rp=')'
+	rp=')',
+	MAX_TOKEN
 };
 
 /**
