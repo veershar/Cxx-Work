@@ -27,3 +27,6 @@ jobs:
       - name: Run a multi-line script
         run: |
           cmake -B ../build -S Program-Simple-Calculator-Intro
+          cmake --build ../build
+          cd ../build
+          ./calculator_test
